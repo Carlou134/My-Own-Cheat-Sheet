@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #191970;
+    background-color: rgba(18, 15, 48);
     color: white;
 }
 
@@ -19,6 +19,19 @@ body{
     text-align: center;
 }
 
+.presentacion h1{
+    position: relative;
+    top: 200px;
+    font-size: 50px;
+}
+
+.presentacion span{
+    position: relative;
+    top: 200px;
+    font-size: 30px;
+    font-style: italic;
+}
+
 .html_tables {
     position: absolute;
     display: inline-block;
@@ -26,6 +39,19 @@ body{
     top: 50px;
     left: 600px;
     height: 500px;
+    width: 700px;
+}
+
+.html_tables h2 {
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+
+.html_tables table {
+    position: relative;
+    top: 100px;
+    left: 100px;
 }
 
 table, td {
