@@ -4,6 +4,30 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #191970;
+    color: white;
+}
+
+.presentacion{
+    background-color: blue;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+}
+
+.html_tables {
+    position: absolute;
+    display: inline-block;
+    background-color: red;
+    top: 50px;
+    left: 600px;
+    height: 500px;
+}
+
 table, td {
     border: 2px solid black;
 }
