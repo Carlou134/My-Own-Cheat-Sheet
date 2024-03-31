@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Georgia, serif;
 }
 
 body{
@@ -34,7 +35,6 @@ body{
 .html_tables {
     position: absolute;
     display: inline-block;
-    
     top: 50px;
     left: 600px;
     height: 500px;
@@ -51,7 +51,7 @@ body{
 .html_tables table {
     position: relative;
     top: 100px;
-    left: 100px;
+    left: 50px;
 }
 
 table, td {
